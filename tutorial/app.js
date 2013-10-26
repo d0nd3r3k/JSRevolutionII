@@ -55,6 +55,14 @@ if ('development' == app.get('env')) {
   app.use(express.errorHandler());
 }
 
+//Render 404 Page
+app.use(function(req, res, next){
+  res.status(404).render('404', {
+    url: req.originalUrl,
+    error: 'Not found'
+  })
+})
+
 //Routes
 app.post('/submit',routes.submit)
 app.get('/', routes.index);
