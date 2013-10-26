@@ -24,8 +24,6 @@ Code Lab:
 
 
 * Install [MongoDB](http://docs.mongodb.org/manual/installation/)
-
-
 4. Fast prototyping with Express, Jade and stylus
 
 
@@ -42,8 +40,6 @@ Code Lab:
 
 
 * Submitting forms
-
-
 5. Nonrelational Databases (NoSql) via MongoDB
 
 
