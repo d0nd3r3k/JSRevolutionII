@@ -24,3 +24,6 @@ Code Lab:
   * Storing our previous form data into a MongoDB Collection
   * The Mongo Shell
 6. Wrap-up
+
+
+View the [Presentation](http://www.slideshare.net/DonaldDerek/js-revolution-donaldderek)
