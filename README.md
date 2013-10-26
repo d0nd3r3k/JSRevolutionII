@@ -7,7 +7,9 @@ Duration: 2 hours
 
 Code Lab:
 1. Understanding The JavaScript Module Pattern
+
 2. A quick intro to Node.js by Rayn Dahl 
+
 3. Setup
 ..* Install [Node.js](http://nodejs.org/download/)
 ..* Install [Git](http://git-scm.com/book/en/Getting-Started-Installing-Git)
