@@ -1,4 +1,4 @@
-JSRevolutionII
+JSRevolution-II
 ==============
 
 Arabnet DevTour Lebanon Code Lab #2: Java Script Revolution II
