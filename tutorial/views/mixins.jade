@@ -1,0 +1,11 @@
+mixin fields(type, label, name)
+	.form-group
+		label(class="form-label")=label
+		.controls
+			input.form-control(type=type, name=name)	
+
+mixin textarea(label, name)
+	.form-group
+		label(class="form-label")=label
+		.controls
+			textarea.form-control(name=name, rows="4")

@@ -1,5 +1,14 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+
+	include mixins
+
+	.container
+		h1 Send us a message
+		form(action="/submit", method="POST")
+			.form-group
+				mixin fields('text', 'Name:', 'name')
+				mixin fields('email', 'Email:', 'email')
+				mixin textarea('Message:', 'message')
+				input.btn.btn-default(type='submit', value='Send Message')
